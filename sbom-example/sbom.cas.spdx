@@ -1,0 +1,1450 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: sbom-example:1.0.0
+DocumentNamespace: http://spdx.org/spdxdocs/sbom-example:1.0.0-a91850bb-6b21-45ed-aa56-64da07260052
+Creator: Tool: Codenotary cas
+Created: 2022-01-27T20:23:26Z
+
+##### Software components
+
+PackageName: adduser
+SPDXID: SPDXRef-Package-1
+PackageVersion: 3.118
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: ca22aec2cb78ba7e2459cbcaff569fcdc44d069ece6076862792ea307d683d42
+PackageSourceInfo: <text>pkg:debian/adduser@3.118</text>
+PackageLicenseConcluded: GPL-2
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: apt
+SPDXID: SPDXRef-Package-2
+PackageVersion: 1.8.2.3
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: a7d8d0dc9e72dcc89482bfa42a57c7c35c01bf37715f984a1b05cf6a9e5e2cb1
+PackageSourceInfo: <text>pkg:debian/apt@1.8.2.3</text>
+PackageLicenseConcluded: GPLv2+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: base-files
+SPDXID: SPDXRef-Package-3
+PackageVersion: 10.3+deb10u11
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: afd22a385a7c7a4e2628fdf682ef4bcdea1f13ae97edfc0702ae1ea177d5faef
+PackageSourceInfo: <text>pkg:debian/base-files@10.3+deb10u11</text>
+PackageLicenseConcluded: GPL
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: base-passwd
+SPDXID: SPDXRef-Package-4
+PackageVersion: 3.5.46
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 16587126e47a8af491dc0d7523e3cdb80211314b86684821166ee97e9ffe22c5
+PackageSourceInfo: <text>pkg:debian/base-passwd@3.5.46</text>
+PackageLicenseConcluded: GPL-2
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: bash
+SPDXID: SPDXRef-Package-5
+PackageVersion: 5.0-4
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: df67456b848349c881a60bd3bf765e98a7eceba72f2778cde93aa2d7f13f85f3
+PackageSourceInfo: <text>pkg:debian/bash@5.0-4</text>
+PackageLicenseConcluded: GPL-3
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: bsdutils
+SPDXID: SPDXRef-Package-6
+PackageVersion: 1:2.33.1-0.1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: b391a8b12795747d4a646fd480a480889482b3fa53c5c02511b5fd6f7681675d
+PackageSourceInfo: <text>pkg:debian/bsdutils@1:2.33.1-0.1</text>
+PackageLicenseConcluded: GPL-2+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: ca-certificates
+SPDXID: SPDXRef-Package-7
+PackageVersion: 20200601~deb10u2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 2d10f37084f1cdd5148cbcea94aecff260b17aea8b3b20d5ec5b30583e2d0291
+PackageSourceInfo: <text>pkg:debian/ca-certificates@20200601~deb10u2</text>
+PackageLicenseConcluded: GPL-2+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: coreutils
+SPDXID: SPDXRef-Package-8
+PackageVersion: 8.30-3
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 15c0928087598d9aa52f14d11f017a7fa77b4fe77f55ceeec8cdadb6a0560ac5
+PackageSourceInfo: <text>pkg:debian/coreutils@8.30-3</text>
+PackageLicenseConcluded: GPL-3
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: curl
+SPDXID: SPDXRef-Package-9
+PackageVersion: 7.64.0-4+deb10u2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: df7d5a5ba110f367c77871b64dd71d7dcd8cf61e6d75176a4f0480e9e61947fd
+PackageSourceInfo: <text>pkg:debian/curl@7.64.0-4+deb10u2</text>
+PackageLicenseConcluded: curl
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: dash
+SPDXID: SPDXRef-Package-10
+PackageVersion: 0.5.10.2-5
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 5bc20df7dfdc9b41fd3eec72dad98a69cb0ee1e03dbecd1285a45d13c3b43a77
+PackageSourceInfo: <text>pkg:debian/dash@0.5.10.2-5</text>
+PackageLicenseConcluded: GPL
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: debconf
+SPDXID: SPDXRef-Package-11
+PackageVersion: 1.5.71+deb10u1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 2df58adc398a62d831dc23a94333296bcbaff5d6eaabd21258948d3a2ad916c6
+PackageSourceInfo: <text>pkg:debian/debconf@1.5.71+deb10u1</text>
+PackageLicenseConcluded: BSD-2-clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: debian-archive-keyring
+SPDXID: SPDXRef-Package-12
+PackageVersion: 2019.1+deb10u1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 2d9179d051b5b334fdc712fc6a348c4fa2417049a461080cb4cfd08aedb1cd3d
+PackageSourceInfo: <text>pkg:debian/debian-archive-keyring@2019.1+deb10u1</text>
+PackageLicenseConcluded: GPL
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: debianutils
+SPDXID: SPDXRef-Package-13
+PackageVersion: 4.8.6.1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 29ac7266c8adeda6542a97d86b98f0d98161d7f9e6a967647abe96c897bf9126
+PackageSourceInfo: <text>pkg:debian/debianutils@4.8.6.1</text>
+PackageLicenseConcluded: GPL.
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: diffutils
+SPDXID: SPDXRef-Package-14
+PackageVersion: 1:3.7-3
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 83967917c678f47122a4f605a8d3295588ac433fa68f9a31f9cf3429f1f4eeeb
+PackageSourceInfo: <text>pkg:debian/diffutils@1:3.7-3</text>
+PackageLicenseConcluded: GPL
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: dpkg
+SPDXID: SPDXRef-Package-15
+PackageVersion: 1.19.7
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 9df0e52084c98b622d673ede61915d4d232cf58f80b8ead80ca03621300fd8a6
+PackageSourceInfo: <text>pkg:debian/dpkg@1.19.7</text>
+PackageLicenseConcluded: GPL-2+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: e2fsprogs
+SPDXID: SPDXRef-Package-16
+PackageVersion: 1.44.5-1+deb10u3
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: ea07748e6ac72b71b5fd2d1fe1581d2ff61c36c0a9286c0026d3e8b39b29a993
+PackageSourceInfo: <text>pkg:debian/e2fsprogs@1.44.5-1+deb10u3</text>
+PackageLicenseConcluded: GPL-2
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: fdisk
+SPDXID: SPDXRef-Package-17
+PackageVersion: 2.33.1-0.1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 664cbea1ff008234b942bc1fc08cb5a3aaaacb4f6cdc6a7d84d11b5a6f450ddb
+PackageSourceInfo: <text>pkg:debian/fdisk@2.33.1-0.1</text>
+PackageLicenseConcluded: GPL-2+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: findutils
+SPDXID: SPDXRef-Package-18
+PackageVersion: 4.6.0+git+20190209-2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: bd4a9d61b0667dafd864a7ccd9528a929b14a6c553a44952b34ea3676e7211c5
+PackageSourceInfo: <text>pkg:debian/findutils@4.6.0+git+20190209-2</text>
+PackageLicenseConcluded: GPL-3
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: fontconfig
+SPDXID: SPDXRef-Package-19
+PackageVersion: 2.13.1-2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 23aeb4932c512304f88f7c25fbfb2db797a5d650a5a3bda4cfd38492f1d36c1b
+PackageSourceInfo: <text>pkg:debian/fontconfig@2.13.1-2</text>
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: fontconfig-config
+SPDXID: SPDXRef-Package-20
+PackageVersion: 2.13.1-2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 4818c93b6d82d9f2cf2efaf9e83851eb84f8c194727484f9ec9d9caf3cfae6e2
+PackageSourceInfo: <text>pkg:debian/fontconfig-config@2.13.1-2</text>
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: fonts-dejavu-core
+SPDXID: SPDXRef-Package-21
+PackageVersion: 2.37-1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: f86eedf820af229f37769e2ebb87d7559445a3156b7c8371d5381bedb584df1a
+PackageSourceInfo: <text>pkg:debian/fonts-dejavu-core@2.37-1</text>
+PackageLicenseConcluded: bitstream-vera
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: gcc-8-base
+SPDXID: SPDXRef-Package-22
+PackageVersion: 8.3.0-6
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 1d62943fb4b92908f59def1eaee9aa449ece05cfe3c413ddfa6783cdf2a1a8dd
+PackageSourceInfo: <text>pkg:debian/gcc-8-base@8.3.0-6</text>
+PackageLicenseConcluded: GPL
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: gpgv
+SPDXID: SPDXRef-Package-23
+PackageVersion: 2.2.12-1+deb10u1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 3eade34808333c68ad6860b5b859764113986837d4a4551fae0581e741674f7c
+PackageSourceInfo: <text>pkg:debian/gpgv@2.2.12-1+deb10u1</text>
+PackageLicenseConcluded: GPL-3+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: grep
+SPDXID: SPDXRef-Package-24
+PackageVersion: 3.3-1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 1978bf3911fdec04ad3382686432780649236d41a83629219a9623f210c1e760
+PackageSourceInfo: <text>pkg:debian/grep@3.3-1</text>
+PackageLicenseConcluded: GPL-3+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: gzip
+SPDXID: SPDXRef-Package-25
+PackageVersion: 1.9-3
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 634d23d99a8e08a64299b0cb794b32738584115ed8380c11a497fe1ae407c02d
+PackageSourceInfo: <text>pkg:debian/gzip@1.9-3</text>
+PackageLicenseConcluded: GPL
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: hostname
+SPDXID: SPDXRef-Package-26
+PackageVersion: 3.21
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 4f23b617c9248b8d9dbcdb79265004e9b55dec573f412b12d131c8dffdad5e8e
+PackageSourceInfo: <text>pkg:debian/hostname@3.21</text>
+PackageLicenseConcluded: GPL-2
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: init-system-helpers
+SPDXID: SPDXRef-Package-27
+PackageVersion: 1.56+nmu1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: c85f7ce9734d0cc138e071f5cdbc35a0e389a13b24b78fcdfec27189df8ceae8
+PackageSourceInfo: <text>pkg:debian/init-system-helpers@1.56+nmu1</text>
+PackageLicenseConcluded: BSD-3-clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: iproute2
+SPDXID: SPDXRef-Package-28
+PackageVersion: 4.20.0-2+deb10u1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 0516a747b0dfe91ca4a69de9d36e421b2105429bb7def393d4b1c29bfb4a1911
+PackageSourceInfo: <text>pkg:debian/iproute2@4.20.0-2+deb10u1</text>
+PackageLicenseConcluded: GPL-2
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: iputils-ping
+SPDXID: SPDXRef-Package-29
+PackageVersion: 3:20180629-2+deb10u2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: f349616ca6e63de70b8dba8830dc0cb4857d91f2e500b98d80f589a9dc966661
+PackageSourceInfo: <text>pkg:debian/iputils-ping@3:20180629-2+deb10u2</text>
+PackageLicenseConcluded: GPL.
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libacl1
+SPDXID: SPDXRef-Package-30
+PackageVersion: 2.2.53-4
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 09d5790e09428e6f89a80a915c11026f402a928b1eb7d9bd629cacad8a40e1cf
+PackageSourceInfo: <text>pkg:debian/libacl1@2.2.53-4</text>
+PackageLicenseConcluded: GPL-2+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libapt-pkg5.0
+SPDXID: SPDXRef-Package-31
+PackageVersion: 1.8.2.3
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: d98c2a04cf47ff24b9222bbbd6cd6051c23fd4df1728e5361c5403a25acc182a
+PackageSourceInfo: <text>pkg:debian/libapt-pkg5.0@1.8.2.3</text>
+PackageLicenseConcluded: GPLv2+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libattr1
+SPDXID: SPDXRef-Package-32
+PackageVersion: 1:2.4.48-4
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: c6425cbbe99f54460d8700b94d265cef124956ab1ac014ffe6610ad6b861c177
+PackageSourceInfo: <text>pkg:debian/libattr1@1:2.4.48-4</text>
+PackageLicenseConcluded: GPL-2+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libaudit-common
+SPDXID: SPDXRef-Package-33
+PackageVersion: 1:2.8.4-3
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 788cd710dd6872c3eddaa95f9799d241a2fe97dd2c60e9a4851d4bc2b74d94be
+PackageSourceInfo: <text>pkg:debian/libaudit-common@1:2.8.4-3</text>
+PackageLicenseConcluded: GPL-2
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libaudit1
+SPDXID: SPDXRef-Package-34
+PackageVersion: 1:2.8.4-3
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 27cc423a595c5275059634505ffc85160d6328607094339952d456198e1a9495
+PackageSourceInfo: <text>pkg:debian/libaudit1@1:2.8.4-3</text>
+PackageLicenseConcluded: GPL-2
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libblkid1
+SPDXID: SPDXRef-Package-35
+PackageVersion: 2.33.1-0.1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 604a8ee47ed935d56125041cfc3bf41e257fca914c3a69d8f3a007a32e1f86cb
+PackageSourceInfo: <text>pkg:debian/libblkid1@2.33.1-0.1</text>
+PackageLicenseConcluded: GPL-2+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libbz2-1.0
+SPDXID: SPDXRef-Package-36
+PackageVersion: 1.0.6-9.2~deb10u1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 7faa60f379d5d0b518a5ead97e731b28fa61aa09def9b1b7cf848c694e1c65be
+PackageSourceInfo: <text>pkg:debian/libbz2-1.0@1.0.6-9.2~deb10u1</text>
+PackageLicenseConcluded: BSD-variant
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libc-bin
+SPDXID: SPDXRef-Package-37
+PackageVersion: 2.28-10
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: f08cdddde8de47d0d1cbc634af965095b0a9c1303207b62d9723f081f0ca6ab8
+PackageSourceInfo: <text>pkg:debian/libc-bin@2.28-10</text>
+PackageLicenseConcluded: LGPL-2.1
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libc-l10n
+SPDXID: SPDXRef-Package-38
+PackageVersion: 2.28-10
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 5688a4b98b1c157bf21fc248e1177392d50ddff33eaa85009bd709101675388d
+PackageSourceInfo: <text>pkg:debian/libc-l10n@2.28-10</text>
+PackageLicenseConcluded: LGPL-2.1
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libc6
+SPDXID: SPDXRef-Package-39
+PackageVersion: 2.28-10
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 7e421dcf4dbdc3eede4aa53fe3d828be0dae176a9047590ec6ffd23076f18009
+PackageSourceInfo: <text>pkg:debian/libc6@2.28-10</text>
+PackageLicenseConcluded: LGPL-2.1
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libcap-ng0
+SPDXID: SPDXRef-Package-40
+PackageVersion: 0.7.9-2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 6c8eac66d483ef1ede9890b6214b245e454d6e8d74de1194e4adadf033955e60
+PackageSourceInfo: <text>pkg:debian/libcap-ng0@0.7.9-2</text>
+PackageLicenseConcluded: LGPL-2.1
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libcap2
+SPDXID: SPDXRef-Package-41
+PackageVersion: 1:2.25-2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 4e8b5ef02ae3c418bfc75d9252da8172bbcd838f4dfa6f67f085b93db5f169d4
+PackageSourceInfo: <text>pkg:debian/libcap2@1:2.25-2</text>
+PackageLicenseConcluded: BSD-3-clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libcap2-bin
+SPDXID: SPDXRef-Package-42
+PackageVersion: 1:2.25-2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 0e90a21d79937d91cf949064b78b373794b1983a363b0b80ae5cf97d7b7fb255
+PackageSourceInfo: <text>pkg:debian/libcap2-bin@1:2.25-2</text>
+PackageLicenseConcluded: BSD-3-clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libcom-err2
+SPDXID: SPDXRef-Package-43
+PackageVersion: 1.44.5-1+deb10u3
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 1515c56e4e3f36b0ae32e7a327fdcf74c7b4bb8632eb3e0b9cfea9dc902f6262
+PackageSourceInfo: <text>pkg:debian/libcom-err2@1.44.5-1+deb10u3</text>
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libcurl4
+SPDXID: SPDXRef-Package-44
+PackageVersion: 7.64.0-4+deb10u2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: c4a983e95964894e9d02256252312ff2767339f84acbc71e36c9a0f48db6898e
+PackageSourceInfo: <text>pkg:debian/libcurl4@7.64.0-4+deb10u2</text>
+PackageLicenseConcluded: curl
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libdb5.3
+SPDXID: SPDXRef-Package-45
+PackageVersion: 5.3.28+dfsg1-0.5
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 6033817c225aa795c61d10617c729e3b44f8c60386ff11275709702c58d492e5
+PackageSourceInfo: <text>pkg:debian/libdb5.3@5.3.28+dfsg1-0.5</text>
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libdebconfclient0
+SPDXID: SPDXRef-Package-46
+PackageVersion: 0.249
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 31248e792afdf5f838994d7dac3a4bdfe2e30a53e2876c2b6261b64af93c1f0b
+PackageSourceInfo: <text>pkg:debian/libdebconfclient0@0.249</text>
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libelf1
+SPDXID: SPDXRef-Package-47
+PackageVersion: 0.176-1.1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 73155934cba7a3e80a83a612086606257ef553b6f60ed811e3b058f2fa0c91a8
+PackageSourceInfo: <text>pkg:debian/libelf1@0.176-1.1</text>
+PackageLicenseConcluded: GPL-2
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libexpat1
+SPDXID: SPDXRef-Package-48
+PackageVersion: 2.2.6-2+deb10u1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 406ca9c7de9f01ef697d6522b7d91bc5ffeeb5dbedce938128d2f7e6e36112dd
+PackageSourceInfo: <text>pkg:debian/libexpat1@2.2.6-2+deb10u1</text>
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libext2fs2
+SPDXID: SPDXRef-Package-49
+PackageVersion: 1.44.5-1+deb10u3
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 00120762af34dab0d3b6a0577353a3a81b3ae636ff8fe18f56d1d4a8b22fbee1
+PackageSourceInfo: <text>pkg:debian/libext2fs2@1.44.5-1+deb10u3</text>
+PackageLicenseConcluded: GPL-2
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libfdisk1
+SPDXID: SPDXRef-Package-50
+PackageVersion: 2.33.1-0.1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: a6d09000d1e1f0dbbe2143565134314fcde7c1938673ef035c34e1b98f280334
+PackageSourceInfo: <text>pkg:debian/libfdisk1@2.33.1-0.1</text>
+PackageLicenseConcluded: GPL-2+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libffi6
+SPDXID: SPDXRef-Package-51
+PackageVersion: 3.2.1-9
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 146dfd36121c02864ab52940a205a18f2279f2a6ba68da383ca7e00ee06a9552
+PackageSourceInfo: <text>pkg:debian/libffi6@3.2.1-9</text>
+PackageLicenseConcluded: GPL
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libfontconfig1
+SPDXID: SPDXRef-Package-52
+PackageVersion: 2.13.1-2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 3630eae3feb3be1b7accbd5325f4043a9bb35da8d66063f5ce6ce3b51afa0efe
+PackageSourceInfo: <text>pkg:debian/libfontconfig1@2.13.1-2</text>
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libfreetype6
+SPDXID: SPDXRef-Package-53
+PackageVersion: 2.9.1-3+deb10u2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: ecf81037ef0ca16e0d24b41622fb519e5412b71214f61cf85fcabf77e52f01da
+PackageSourceInfo: <text>pkg:debian/libfreetype6@2.9.1-3+deb10u2</text>
+PackageLicenseConcluded: GPL-2+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libgcc1
+SPDXID: SPDXRef-Package-54
+PackageVersion: 1:8.3.0-6
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: d32dcbe9f9152f8e02e7dda525a611cb1231ddfbc434b82eded558822ce4b8fe
+PackageSourceInfo: <text>pkg:debian/libgcc1@1:8.3.0-6</text>
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libgcrypt20
+SPDXID: SPDXRef-Package-55
+PackageVersion: 1.8.4-5+deb10u1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 6e5c2488ccfa02caeb8b97554ca5b979d37bbd7fad6993111c634a3b2626b861
+PackageSourceInfo: <text>pkg:debian/libgcrypt20@1.8.4-5+deb10u1</text>
+PackageLicenseConcluded: LGPL
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libgmp10
+SPDXID: SPDXRef-Package-56
+PackageVersion: 2:6.1.2+dfsg-4
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 1503904f162ad5fa0446380324a3c56d15627a8d338052f1a0f10618c80c4998
+PackageSourceInfo: <text>pkg:debian/libgmp10@2:6.1.2+dfsg-4</text>
+PackageLicenseConcluded: LGPL-3.
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libgnutls30
+SPDXID: SPDXRef-Package-57
+PackageVersion: 3.6.7-4+deb10u7
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 182369110dc50ea58a9b01c55ec9334f8dce31546e3d390d395f95ac179966ac
+PackageSourceInfo: <text>pkg:debian/libgnutls30@3.6.7-4+deb10u7</text>
+PackageLicenseConcluded: The
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libgpg-error0
+SPDXID: SPDXRef-Package-58
+PackageVersion: 1.35-1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: ab4022d67ab71f8abc30a089416c26c28a8d3059287b0a1bac19b67d7e16ca54
+PackageSourceInfo: <text>pkg:debian/libgpg-error0@1.35-1</text>
+PackageLicenseConcluded: LGPL-2.1+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libgssapi-krb5-2
+SPDXID: SPDXRef-Package-59
+PackageVersion: 1.17-3+deb10u3
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 67a3190cf6a7274a6ff40957c8c3f5a8a2e40499c7d107431b96edeb20ff2f02
+PackageSourceInfo: <text>pkg:debian/libgssapi-krb5-2@1.17-3+deb10u3</text>
+PackageLicenseConcluded: GPL-2
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libhogweed4
+SPDXID: SPDXRef-Package-60
+PackageVersion: 3.4.1-1+deb10u1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 81eeb35804c900342abb398e8b50a42408c57bfe42cfb58aa648555b16d0a5b7
+PackageSourceInfo: <text>pkg:debian/libhogweed4@3.4.1-1+deb10u1</text>
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libidn2-0
+SPDXID: SPDXRef-Package-61
+PackageVersion: 2.0.5-1+deb10u1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 216632651f6ccd13b8c4a92cfc0e9f023fa636b3ecb42d1acb5f0cbf7ccad385
+PackageSourceInfo: <text>pkg:debian/libidn2-0@2.0.5-1+deb10u1</text>
+PackageLicenseConcluded: GPL-3+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libk5crypto3
+SPDXID: SPDXRef-Package-62
+PackageVersion: 1.17-3+deb10u3
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: d1621512277eed997b432ccd5087f3b99f2dde7152a5e27ea76e880fb38d8515
+PackageSourceInfo: <text>pkg:debian/libk5crypto3@1.17-3+deb10u3</text>
+PackageLicenseConcluded: GPL-2
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libkeyutils1
+SPDXID: SPDXRef-Package-63
+PackageVersion: 1.6-6
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 4da269198daf4bbab7188d60e2477cb4c51e8b33582837da1b646e67a68b587c
+PackageSourceInfo: <text>pkg:debian/libkeyutils1@1.6-6</text>
+PackageLicenseConcluded: GPL-2+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libkrb5-3
+SPDXID: SPDXRef-Package-64
+PackageVersion: 1.17-3+deb10u3
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: caa0781bd1408ea1125442f6d3cfebfb490fa9520f1811e9160b10c17aa133ab
+PackageSourceInfo: <text>pkg:debian/libkrb5-3@1.17-3+deb10u3</text>
+PackageLicenseConcluded: GPL-2
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libkrb5support0
+SPDXID: SPDXRef-Package-65
+PackageVersion: 1.17-3+deb10u3
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 8ff21a58fa89bfac92bd6ef2b4e1fb478cffd675fc859d5de3338e8fb2fda1a9
+PackageSourceInfo: <text>pkg:debian/libkrb5support0@1.17-3+deb10u3</text>
+PackageLicenseConcluded: GPL-2
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libldap-2.4-2
+SPDXID: SPDXRef-Package-66
+PackageVersion: 2.4.47+dfsg-3+deb10u6
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 66ab0772da300b4e2658f7592417c7b8985f39939ce911f5c88dbd99583eb7cd
+PackageSourceInfo: <text>pkg:debian/libldap-2.4-2@2.4.47+dfsg-3+deb10u6</text>
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libldap-common
+SPDXID: SPDXRef-Package-67
+PackageVersion: 2.4.47+dfsg-3+deb10u6
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: d0668c653ff46cc51ab79d7ee5444fa38902fba2943df441542a26be431e8ced
+PackageSourceInfo: <text>pkg:debian/libldap-common@2.4.47+dfsg-3+deb10u6</text>
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: liblz4-1
+SPDXID: SPDXRef-Package-68
+PackageVersion: 1.8.3-1+deb10u1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 3dedd2cbe52dbd164dccf7ab09aff428853005ffab9ca48d669f5aacf0383ccb
+PackageSourceInfo: <text>pkg:debian/liblz4-1@1.8.3-1+deb10u1</text>
+PackageLicenseConcluded: BSD-2-clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: liblzma5
+SPDXID: SPDXRef-Package-69
+PackageVersion: 5.2.4-1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 37121275232b08793279c2f13e2d5b52a9cf380c01723174b8508fb676a161d4
+PackageSourceInfo: <text>pkg:debian/liblzma5@5.2.4-1</text>
+PackageLicenseConcluded: PD
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libmnl0
+SPDXID: SPDXRef-Package-70
+PackageVersion: 1.0.4-2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: eac853ef08807d7518d1249e0b567d7a68e5e9fa16482b87ea130039af5fca56
+PackageSourceInfo: <text>pkg:debian/libmnl0@1.0.4-2</text>
+PackageLicenseConcluded: LGPL-2.1
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libmount1
+SPDXID: SPDXRef-Package-71
+PackageVersion: 2.33.1-0.1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: cf73ac29b22fa67c9cb08bd1f424c44c376e8d25ee1407972d91c38f6a8286ef
+PackageSourceInfo: <text>pkg:debian/libmount1@2.33.1-0.1</text>
+PackageLicenseConcluded: GPL-2+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libncursesw6
+SPDXID: SPDXRef-Package-72
+PackageVersion: 6.1+20181013-2+deb10u2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 336d3c081602a0697afaf290542470be8841bd3c1d14d6d4d041753b866b302c
+PackageSourceInfo: <text>pkg:debian/libncursesw6@6.1+20181013-2+deb10u2</text>
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libnettle6
+SPDXID: SPDXRef-Package-73
+PackageVersion: 3.4.1-1+deb10u1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 3959d6ef7f539eb4590a8dec3ba30a4d2be0079226bd736d69c171de5d1f240a
+PackageSourceInfo: <text>pkg:debian/libnettle6@3.4.1-1+deb10u1</text>
+PackageLicenseConcluded: LGPL-2.1+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libnghttp2-14
+SPDXID: SPDXRef-Package-74
+PackageVersion: 1.36.0-2+deb10u1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 3d6a7f67bfb8e726519234932825caf02f5a4c9291847d6ff064fad708e6f730
+PackageSourceInfo: <text>pkg:debian/libnghttp2-14@1.36.0-2+deb10u1</text>
+PackageLicenseConcluded: Expat
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libp11-kit0
+SPDXID: SPDXRef-Package-75
+PackageVersion: 0.23.15-2+deb10u1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 882e6e5ef14a3217acf8f1dc724b4ba7eb1b027a912412be79e77e925f87d759
+PackageSourceInfo: <text>pkg:debian/libp11-kit0@0.23.15-2+deb10u1</text>
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libpam-modules
+SPDXID: SPDXRef-Package-76
+PackageVersion: 1.3.1-5
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 853b2852b5a129dbde9fbe9980989fb3d532ac149d33806d0fa5058dd59cb37c
+PackageSourceInfo: <text>pkg:debian/libpam-modules@1.3.1-5</text>
+PackageLicenseConcluded: GPL
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libpam-modules-bin
+SPDXID: SPDXRef-Package-77
+PackageVersion: 1.3.1-5
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 86f1318a80e13b80f5e6b47556eb25e1c321944b4106b4deea50172de3917990
+PackageSourceInfo: <text>pkg:debian/libpam-modules-bin@1.3.1-5</text>
+PackageLicenseConcluded: GPL
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libpam-runtime
+SPDXID: SPDXRef-Package-78
+PackageVersion: 1.3.1-5
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 30effbaccf8fc2b9c2f35314097ae6efd14352876a329558ee9a874f19b415ea
+PackageSourceInfo: <text>pkg:debian/libpam-runtime@1.3.1-5</text>
+PackageLicenseConcluded: GPL
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libpam0g
+SPDXID: SPDXRef-Package-79
+PackageVersion: 1.3.1-5
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 33d2911a2142818bd388a6e5545baec7da7b9687946d2ec3a682e435983ca20b
+PackageSourceInfo: <text>pkg:debian/libpam0g@1.3.1-5</text>
+PackageLicenseConcluded: GPL
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libpcre3
+SPDXID: SPDXRef-Package-80
+PackageVersion: 2:8.39-12
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 371dc6fc3eb80319b903f7347fbd5ea406e50b855144e1e4c913c380326c13ac
+PackageSourceInfo: <text>pkg:debian/libpcre3@2:8.39-12</text>
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libpng16-16
+SPDXID: SPDXRef-Package-81
+PackageVersion: 1.6.36-6
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 25d397f66c58b1377da53e66606bc840e69a76039bc443377bb6108a2d2644bc
+PackageSourceInfo: <text>pkg:debian/libpng16-16@1.6.36-6</text>
+PackageLicenseConcluded: libpng
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libpsl5
+SPDXID: SPDXRef-Package-82
+PackageVersion: 0.20.2-2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: b0773060c37966a937e18b8ee5996444f8922e063d34d61bcd0489c5c112e75b
+PackageSourceInfo: <text>pkg:debian/libpsl5@0.20.2-2</text>
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: librtmp1
+SPDXID: SPDXRef-Package-83
+PackageVersion: 2.4+20151223.gitfa8646d.1-2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: a1e1be924ae6ad5c42be3ffa92344026f0e1df851563942bcebf25f4a032ba87
+PackageSourceInfo: <text>pkg:debian/librtmp1@2.4+20151223.gitfa8646d.1-2</text>
+PackageLicenseConcluded: GPL-2
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libsasl2-2
+SPDXID: SPDXRef-Package-84
+PackageVersion: 2.1.27+dfsg-1+deb10u1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 2204f527b5fbbaf93fa57d3fdeb3edf9640a1119f1d7ef22fbdf60cc8bbcefce
+PackageSourceInfo: <text>pkg:debian/libsasl2-2@2.1.27+dfsg-1+deb10u1</text>
+PackageLicenseConcluded: BSD-4-clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libsasl2-modules-db
+SPDXID: SPDXRef-Package-85
+PackageVersion: 2.1.27+dfsg-1+deb10u1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 07a62ac9d43ab4fa1c1aeff0df9a941fe21936ee5347e968ebbfd15bfc91c818
+PackageSourceInfo: <text>pkg:debian/libsasl2-modules-db@2.1.27+dfsg-1+deb10u1</text>
+PackageLicenseConcluded: BSD-4-clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libseccomp2
+SPDXID: SPDXRef-Package-86
+PackageVersion: 2.3.3-4
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 6a29131563b81422aae8745433a05977ba2dfc5a7e915750dc6478d22416f08d
+PackageSourceInfo: <text>pkg:debian/libseccomp2@2.3.3-4</text>
+PackageLicenseConcluded: LGPL-2.1
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libselinux1
+SPDXID: SPDXRef-Package-87
+PackageVersion: 2.8-1+b1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 4cda83cb3c40eef078c499466e9849ab789302afa5d0ffdb73f2a15d596dc009
+PackageSourceInfo: <text>pkg:debian/libselinux1@2.8-1+b1</text>
+PackageLicenseConcluded: LGPL-2.1
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libsemanage-common
+SPDXID: SPDXRef-Package-88
+PackageVersion: 2.8-2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 44038d3202b987a0e117cd6c168e89734e7a55837cc8ed4469a08276475c3373
+PackageSourceInfo: <text>pkg:debian/libsemanage-common@2.8-2</text>
+PackageLicenseConcluded: LGPL
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libsemanage1
+SPDXID: SPDXRef-Package-89
+PackageVersion: 2.8-2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: bb364ba734791fc9c178cca623c92abe72e9e8cb722044219e0aefcdfe1dc132
+PackageSourceInfo: <text>pkg:debian/libsemanage1@2.8-2</text>
+PackageLicenseConcluded: LGPL
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libsepol1
+SPDXID: SPDXRef-Package-90
+PackageVersion: 2.8-1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: a57cfed1c862aa39dd5f9680fb6b3e6194e90c8f9c1dbaeda010e5618076a758
+PackageSourceInfo: <text>pkg:debian/libsepol1@2.8-1</text>
+PackageLicenseConcluded: LGPL
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libsmartcols1
+SPDXID: SPDXRef-Package-91
+PackageVersion: 2.33.1-0.1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 3bfb7c535c98f1091193e0d88d397cb2168fbeca65814e09a554073de00c6263
+PackageSourceInfo: <text>pkg:debian/libsmartcols1@2.33.1-0.1</text>
+PackageLicenseConcluded: GPL-2+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libss2
+SPDXID: SPDXRef-Package-92
+PackageVersion: 1.44.5-1+deb10u3
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: d46e56804e251cb436571f44e8bee6a2e7b0d59d5d6a9b7217d8fa0ff42d20de
+PackageSourceInfo: <text>pkg:debian/libss2@1.44.5-1+deb10u3</text>
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libssh2-1
+SPDXID: SPDXRef-Package-93
+PackageVersion: 1.8.0-2.1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 9dd2295c5404e10d2d0558db92b653abf5a6ccd1ff7783580de79bc080986093
+PackageSourceInfo: <text>pkg:debian/libssh2-1@1.8.0-2.1</text>
+PackageLicenseConcluded: BSD3
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libssl1.1
+SPDXID: SPDXRef-Package-94
+PackageVersion: 1.1.1d-0+deb10u7
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 39cc1817f5c9394fff01544451dd6d665f92eed200ac4fd0283c7528616dad83
+PackageSourceInfo: <text>pkg:debian/libssl1.1@1.1.1d-0+deb10u7</text>
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libstdc++6
+SPDXID: SPDXRef-Package-95
+PackageVersion: 8.3.0-6
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 4aa0bd568fd6f49694a3dd125455b1302ccffb4591037ecbdb9799f52a0dd567
+PackageSourceInfo: <text>pkg:debian/libstdc++6@8.3.0-6</text>
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libsystemd0
+SPDXID: SPDXRef-Package-96
+PackageVersion: 241-7~deb10u8
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 0a1f088f9634db56f72d25f3062eb6dced50579e29136ebe6558d90c7aedd4c0
+PackageSourceInfo: <text>pkg:debian/libsystemd0@241-7~deb10u8</text>
+PackageLicenseConcluded: LGPL-2.1+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libtasn1-6
+SPDXID: SPDXRef-Package-97
+PackageVersion: 4.13-3
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: b88477cffe9078ae6c101c35d33279d7f774ce7c6913786c3b84dcbd44459ef4
+PackageSourceInfo: <text>pkg:debian/libtasn1-6@4.13-3</text>
+PackageLicenseConcluded: LGPL
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libtinfo6
+SPDXID: SPDXRef-Package-98
+PackageVersion: 6.1+20181013-2+deb10u2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: b671ca577de6eedca93c8df9312452e104645ac09b5088d71d917a3d8781eac2
+PackageSourceInfo: <text>pkg:debian/libtinfo6@6.1+20181013-2+deb10u2</text>
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libudev1
+SPDXID: SPDXRef-Package-99
+PackageVersion: 241-7~deb10u8
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 1796684028a9291a61b775964cc8ea50e41cce5cf9c88c17f7af73fab3fe2bc3
+PackageSourceInfo: <text>pkg:debian/libudev1@241-7~deb10u8</text>
+PackageLicenseConcluded: LGPL-2.1+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libunistring2
+SPDXID: SPDXRef-Package-100
+PackageVersion: 0.9.10-1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: bfd97b2571439887efe61bd61a71512f1659fb63be1dd46527642e46609b524a
+PackageSourceInfo: <text>pkg:debian/libunistring2@0.9.10-1</text>
+PackageLicenseConcluded: LGPL-3+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libuuid1
+SPDXID: SPDXRef-Package-101
+PackageVersion: 2.33.1-0.1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: b0538c430aa7d95208ed4479bb93e4b0683a69eb34b097e3537ebb5743b2bc6b
+PackageSourceInfo: <text>pkg:debian/libuuid1@2.33.1-0.1</text>
+PackageLicenseConcluded: GPL-2+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libxtables12
+SPDXID: SPDXRef-Package-102
+PackageVersion: 1.8.2-4
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 426451cb49868f16be7cd394a9ccbfd55abac9e5c215b68d33f988c1a6a61ca8
+PackageSourceInfo: <text>pkg:debian/libxtables12@1.8.2-4</text>
+PackageLicenseConcluded: GPL-2
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: libzstd1
+SPDXID: SPDXRef-Package-103
+PackageVersion: 1.3.8+dfsg-3+deb10u2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 6606f8484eeae936460fb6d7201c83ae63aa666c57ae0c7910101354697a6a3a
+PackageSourceInfo: <text>pkg:debian/libzstd1@1.3.8+dfsg-3+deb10u2</text>
+PackageLicenseConcluded: BSD-3-clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: locales
+SPDXID: SPDXRef-Package-104
+PackageVersion: 2.28-10
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 170879839573b6f33252ceaf6f10ab32dedc91a347924129e987ac85b94a4f7c
+PackageSourceInfo: <text>pkg:debian/locales@2.28-10</text>
+PackageLicenseConcluded: LGPL-2.1
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: login
+SPDXID: SPDXRef-Package-105
+PackageVersion: 1:4.5-1.1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 00296931ec5d2eda111136b1c025a5a22f6e3795dd9f0208d0fdd00f2983f22a
+PackageSourceInfo: <text>pkg:debian/login@1:4.5-1.1</text>
+PackageLicenseConcluded: GPL-2
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: mawk
+SPDXID: SPDXRef-Package-106
+PackageVersion: 1.3.3-17+b3
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 66921a131a48fd13c2ea73b30af7873a74b632d845164aefee1f4dae60a0a55e
+PackageSourceInfo: <text>pkg:debian/mawk@1.3.3-17+b3</text>
+PackageLicenseConcluded: GPL-2
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: mount
+SPDXID: SPDXRef-Package-107
+PackageVersion: 2.33.1-0.1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: e88b521a8422136d34c08e30546d3a890ce9e28a5612415f3c1a7ae87636ec1c
+PackageSourceInfo: <text>pkg:debian/mount@2.33.1-0.1</text>
+PackageLicenseConcluded: GPL-2+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: ncurses-base
+SPDXID: SPDXRef-Package-108
+PackageVersion: 6.1+20181013-2+deb10u2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: e123e3a60a36156d3ed047db00205b9102f878096d672a3e6f0f68af45e6bc67
+PackageSourceInfo: <text>pkg:debian/ncurses-base@6.1+20181013-2+deb10u2</text>
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: ncurses-bin
+SPDXID: SPDXRef-Package-109
+PackageVersion: 6.1+20181013-2+deb10u2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 746d24a9de22039ff611073985ff3aac785fdfad0c0406652c8370ce1fcc2d67
+PackageSourceInfo: <text>pkg:debian/ncurses-bin@6.1+20181013-2+deb10u2</text>
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: openssl
+SPDXID: SPDXRef-Package-110
+PackageVersion: 1.1.1d-0+deb10u7
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: e9763163ab9fd0a06ae357468ab8d6fb46aa90efd9af1e7723eb3d51343f4f6e
+PackageSourceInfo: <text>pkg:debian/openssl@1.1.1d-0+deb10u7</text>
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: passwd
+SPDXID: SPDXRef-Package-111
+PackageVersion: 1:4.5-1.1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 25d4cd43e8bd011dfc1e282067ea93a795a15b8bc3307dc957c16b7caf85716f
+PackageSourceInfo: <text>pkg:debian/passwd@1:4.5-1.1</text>
+PackageLicenseConcluded: GPL-2
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: perl-base
+SPDXID: SPDXRef-Package-112
+PackageVersion: 5.28.1-6+deb10u1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: cf9ba1eba5e6886c620fd962192226d6d4a4a897874c0c1c356374f322d671e2
+PackageSourceInfo: <text>pkg:debian/perl-base@5.28.1-6+deb10u1</text>
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: sed
+SPDXID: SPDXRef-Package-113
+PackageVersion: 4.7-1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 953f975da6623a7577db8e06c65894278102e98da11c750657a63babb1531d8e
+PackageSourceInfo: <text>pkg:debian/sed@4.7-1</text>
+PackageLicenseConcluded: GPL-3
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: sensible-utils
+SPDXID: SPDXRef-Package-114
+PackageVersion: 0.0.12
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 69aa55931970358efccb1599396a5d3c6a808fbb5012e465c5e58a0faa8a19b2
+PackageSourceInfo: <text>pkg:debian/sensible-utils@0.0.12</text>
+PackageLicenseConcluded: GPL-2+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: sysvinit-utils
+SPDXID: SPDXRef-Package-115
+PackageVersion: 2.93-8
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: e37f9a8ba3490cb256acf1a9265f4d5d61dde96186f5579d990f8e60ca2f05b5
+PackageSourceInfo: <text>pkg:debian/sysvinit-utils@2.93-8</text>
+PackageLicenseConcluded: GPL-2+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: tar
+SPDXID: SPDXRef-Package-116
+PackageVersion: 1.30+dfsg-6
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: da1738db2ea4e1bb022681b88eef37d204df0d53fc17f36a417c9275891390f0
+PackageSourceInfo: <text>pkg:debian/tar@1.30+dfsg-6</text>
+PackageLicenseConcluded: GPL-3.
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: tzdata
+SPDXID: SPDXRef-Package-117
+PackageVersion: 2021a-0+deb10u3
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 4d1682cbc4340f959baac2e9a0e8914ab3e7e33af81a3d45802b918d25b116fa
+PackageSourceInfo: <text>pkg:debian/tzdata@2021a-0+deb10u3</text>
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: ucf
+SPDXID: SPDXRef-Package-118
+PackageVersion: 3.0038+nmu1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: a45526db29540e7fda41c7e5a2e08e4f28fe28e840868cd7ec75075b6fe9bc7e
+PackageSourceInfo: <text>pkg:debian/ucf@3.0038+nmu1</text>
+PackageLicenseConcluded: GPL-2
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: util-linux
+SPDXID: SPDXRef-Package-119
+PackageVersion: 2.33.1-0.1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 157007410d05b53ece689f9e2a92c6c38783a01463ebc7128aceff9c75f425f1
+PackageSourceInfo: <text>pkg:debian/util-linux@2.33.1-0.1</text>
+PackageLicenseConcluded: GPL-2+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
+PackageName: zlib1g
+SPDXID: SPDXRef-Package-120
+PackageVersion: 1:1.2.11.dfsg-1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: e0f4d7c724dce1c126f260e25994702341f82fd6e6d807462da322f9b4816276
+PackageSourceInfo: <text>pkg:debian/zlib1g@1:1.2.11.dfsg-1</text>
+PackageLicenseConcluded: Zlib
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Static, Direct</text>
+
