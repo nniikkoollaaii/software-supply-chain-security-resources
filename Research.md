@@ -20,6 +20,10 @@ Example for securing software supply chain with container image signing, sboms, 
 
 Levels: https://slsa.dev/spec/v0.1/levels 
 
+### Provenance
+
+ToDo
+
 ## SBoM Formats
 
 ### SPDX
@@ -80,11 +84,21 @@ Get token of a ManagedIdentity of a Private-Agent-Pool-VM via <https://docs.micr
 
 
 #### Attestation SBOMs to Container Image
-https://anchore.com/sbom/drop-an-sbom-how-to-secure-your-software-supply-chain-using-open-source-tools/ 
-cosign attest -predicate ./sbom.syft.json -key ./cosign.key "$IMAGE"
-cosign verify-attestation -key ./cosign.pub “$IMAGE”
 
-Vuln-Reports als Attestation to Container Image?
+https://anchore.com/sbom/drop-an-sbom-how-to-secure-your-software-supply-chain-using-open-source-tools/ 
+	
+Uses in-toto attestation format (see below)
+
+	cosign attest -predicate ./sbom.syft.json -key ./cosign.key "$IMAGE"
+
+	cosign verify-attestation -key ./cosign.pub “$IMAGE”
+	
+	cosign verify-attestation -key $MY_PUBLIC_KEY test/image:latest | jq '.payload |= @base64d | .payload | fromjson | .predicate.Data | fromjson | .'
+
+	
+	
+Vuln-Reports as Attestation to Container Image?
+Test-Reports as Attestation?
 
 
 ## In-Toto
