@@ -52,3 +52,7 @@ Source: <https://github.com/anchore/syft>
     syft packages de.nniikkoollaii/sbom-example:1.0.0 -o spdx=sbom.syft.spdx -o spdx-json=sbom.syft.spdx.json
 
 _Result_: Analyzing container with OS and application dependencies! Includes information of vulnerable log4j-core:2.15.
+
+## ToDo
+
+Tern: Generate SBOM from Container Image and Dockerfile; Output in SPDX & CycloneDX https://github.com/tern-tools/tern#sbom-for-docker-image 
