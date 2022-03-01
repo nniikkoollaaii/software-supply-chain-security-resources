@@ -51,6 +51,8 @@ Source: <https://github.com/anchore/syft>
 
     syft packages de.nniikkoollaii/sbom-example:1.0.0 -o spdx=sbom.syft.spdx -o spdx-json=sbom.syft.spdx.json
 
+    syft packages de.nniikkoollaii/sbom-example:1.0.0 -o cyclonedx=sbom.syft.cyclonedx -o cyclonedx-json=sbom.syft.cyclonedx.json
+
 _Result_: Analyzing container with OS and application dependencies! Includes information of vulnerable log4j-core:2.15.
 
 ## ToDo
